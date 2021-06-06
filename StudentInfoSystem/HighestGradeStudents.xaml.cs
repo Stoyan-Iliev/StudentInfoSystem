@@ -24,6 +24,7 @@ namespace StudentInfoSystem
             List<Student> studentsWithHighestGrade = context
                 .Students
                 .OrderByDescending(s => s.Grade)
+                .ThenBy(s => s.Name)
                 .Take(limitStudents)
                 .ToList();
 
