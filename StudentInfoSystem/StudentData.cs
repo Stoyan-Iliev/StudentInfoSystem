@@ -19,8 +19,8 @@ namespace StudentInfoSystem
             _TestStudents = new List<Student>
             {
                 new Student("Stoyan", "Angelov", "Iliev", "FKST", "KSI", DegreeType.MASTER, StudentStatus.CERTIFIED, "121218055", 5, 10, 37, 6),
-                new Student("Atanas", "Stoyanov", "Nikolov", "FKST", "KSI", DegreeType.BACHELOR, StudentStatus.CERTIFIED, "121218036", 3, 9, 50, 4.5),
-                new Student("Nikolay", "Ivanov", "Georgiev", "FKST", "ITI", DegreeType.PROFFESIONAL_BACHELOR, StudentStatus.CERTIFIED, "121218000", 4, 12, 69, 4)
+                new Student("Atanas", "Stoyanov", "Ivanov", "FKST", "KSI", DegreeType.BACHELOR, StudentStatus.CERTIFIED, "121218056", 3, 9, 50, 4.5),
+                new Student("Angel", "Milanov", "Iliev", "FKST", "ITI", DegreeType.PROFFESIONAL_BACHELOR, StudentStatus.CERTIFIED, "121218220", 4, 12, 69, 4)
             };
         }
 

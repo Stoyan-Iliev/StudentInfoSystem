@@ -24,10 +24,10 @@ namespace UserLogin
             {
                 _testUsers = new List<User>
                 {
-                    new User("Georgi", "12345", UserRoles.ADMIN, DateTime.Now, DateTime.MaxValue),
-                    new User("Atanas", "Pas$worD", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue),
-                    new User("Ivan", "new_pass", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue),
-                    new User("Nikolay", "HNKN_7", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue)
+                    new User("ssaad", "12345", UserRoles.ADMIN, DateTime.Now, DateTime.MaxValue),
+                    new User("asda", "Pasa", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue),
+                    new User("asd", "asdad", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue),
+                    new User("asd", "12323", UserRoles.STUDENT, DateTime.Now, DateTime.MaxValue)
                 };
             }
         }
